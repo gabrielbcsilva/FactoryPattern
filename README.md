@@ -1,2 +1,2 @@
 # FactoryPattern
-Design Factory para conexão com o Banco
+Padrão Factory para conexão com o Banco, com base em curso da Alura

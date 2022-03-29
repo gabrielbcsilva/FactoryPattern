@@ -54,9 +54,9 @@ public class UsuarioDAO {
 	}
 	private static void prepareUser(PreparedStatement stm, Usuario user) throws SQLException {
 		stm.setString(1, user.getNome());
-		;
+		
 		stm.setString(2, user.getCpf());
-		;
+		
 		stm.execute();
 
 		try (ResultSet rs = stm.getGeneratedKeys()) {
